@@ -1,5 +1,5 @@
 const http = require('http'); 
-const fs = require('fs').promises; // Use promises for async I/O
+const fs = require('fs').promises; 
 const url = require('url');
 const DATA = 'items.json';
 
