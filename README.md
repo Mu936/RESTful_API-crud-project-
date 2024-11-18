@@ -27,3 +27,12 @@ GET /items/{id}: Get an item by ID.
 POST /items: Create a new item.
 PUT /items/{id}: Update an item by ID.
 DELETE /items/{id}: Delete an item by ID.
+
+*Data Storage
+Data is stored in the items.json file in the project root directory.
+
+*Error Handling
+404: Item or endpoint not found.
+400: Invalid request or data.
+500: Server error.
+405: Method not allowed.
